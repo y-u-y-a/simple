@@ -1,0 +1,35 @@
+
+// 基本のフォントカラー
+$gray:gray;
+// 基本の線のカラー
+$light-gray:#7B7B7B;
+
+// 困った時の背景カラー
+$light-silver:#f5f5f5;
+$silver:silver;
+
+$lavender:#f2f4fb;
+$purple:#a036fa;
+$light-purple:#e6e6fa;
+
+// ===========================================
+
+// サイトのキーカラー(背景色)
+$key:$lavender;
+
+// 見出しのカラー
+$heading:$purple;         //見出しの強調部分
+$heading-back:$light-silver;  // h2のカラー
+$heading-border:$gray;
+
+// リンクのカラー
+$link-blue:#337ab7;
+
+// コメント送信ボタンのカラー
+$light-yellow:#eee8aa;
+
+// 主にヘッダーフッターで用いる
+$white:white;
+$black:#23282d;
+// 注意書き
+$red:#dc143c;

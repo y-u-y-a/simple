@@ -1,0 +1,88 @@
+.comments-wrapper{
+  // コメントフォーム
+  p{
+    width:80%;
+    margin:0 auto;
+    padding:10px 0;
+    text-align:left;
+    #email-notes{
+      display:none;
+    }
+    span{
+      color:$red;
+    }
+    label{
+      display:block;
+    }
+    input, textarea{
+      width:100%;
+    }
+    textarea{
+      height: 150px;
+      font-size:18px;
+    }
+    input{
+      height: 30px;
+      font-size:18px;
+    }
+  }
+  .form-submit{
+    width:20%;
+    input[type="submit"]{
+      height: 45px;
+      padding:10px;
+      color:$light-gray;
+      border-radius:30px;
+      background-color:$light-yellow;
+      border-style:none;  // type="submit"にCSSを当てたい場合
+    }
+    input[type="submit"]:hover{
+      color:$white;
+      background-color:$silver;
+      cursor:pointer;
+    }
+  }
+  .comment-form-cookies-consent{
+    display:none;
+  }
+  // 投稿されたコメント
+  .comment{
+    margin-bottom:50px;
+    list-style:none;
+    border-bottom:2px dotted $light-gray;
+    .comment-body{
+      padding-left:40px;
+      text-align:left;
+      // コメントのメタデータ
+      .comment-meta{
+        .comment-author, .comment-metadata{
+          display:inline-block;
+        }
+        .comment-author{
+          .fn{
+            font-size:18px;
+            font-weight:bold;
+          }
+          .says{
+            font-size:12px;
+          }
+        }
+        .comment-metadata{
+          margin-left:15px;
+          font-size:12px;
+        }
+        .comment-awaiting-moderation{
+          display:block;
+          color:$red;
+        }
+      }
+      // コメントの内容
+      .comment-content{
+        p{
+          width:100%;
+        }
+      }
+    }
+  }
+}
+

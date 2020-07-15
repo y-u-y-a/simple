@@ -1,0 +1,22 @@
+body{
+  color:$light-gray;
+  font-family:"メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color:$key;
+
+  min-height: 100vh;
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  position:relative;
+}
+
+/*共通 =============== */
+a{
+  color:$link-blue;
+  text-decoration:none;
+}
+a:hover{
+  opacity:0.7;
+}
+i{
+  color:$silver;
+}
+

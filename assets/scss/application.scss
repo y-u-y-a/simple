@@ -1,0 +1,22 @@
+/*sassをcssに変換するコマンド
+sass scss/reset.scss scss/css/reset.css */
+// コンパイルの自動化コマンド
+// sass --watch assets/scss/application.scss:assets/css/application.css
+@import "reset";
+@import "colors";
+@import "common";
+@import "header";
+@import "main";
+@import "footer";
+@import "article";
+@import "sidebar";
+@import "comment";
+
+// Google-font
+@import url(https://fonts.googleapis.com/css?family=Bitter&display=swap);
+// font-awesome(BootstrapCDN)
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+// font-awesome(version5)
+// @import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+// BootstrapCDN
+// @import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);

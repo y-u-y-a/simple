@@ -1,0 +1,50 @@
+// サイドバー
+.sidebar{
+  width:30%;
+  padding-bottom:80px;
+  text-align:center;
+  float:right;
+  .widget{
+    padding:60px 20px;
+    margin-bottom:50px;
+    background-color:$white;
+    .widget-title{
+      padding:0 0 20px;
+      font-size: 25px;
+    }
+    hr{
+      width:20%;
+      margin:5px auto 40px;
+      border-bottom:2px solid $heading;
+    }
+    img{
+      width:60%;
+      margin-bottom:40px;
+      border-radius:100%;
+    }
+    p{
+      width:80%;
+      margin:0 auto 40px;
+      font-size:14px;
+      text-align:left;
+      letter-spacing:2px;
+      line-height:normal;
+      display:inline-block;
+    }
+    li{
+      height: 50px;
+      line-height: 50px;
+      border-top:dotted 1px$light-gray;
+      i{
+        margin-left:10px;
+        color:$link-blue;
+      }
+    }
+    .search-field{
+      padding:20px 90px 20px 10px;
+      font-size:20px;
+      border-radius:8px;
+      background-color:$light-silver;
+    }
+  }
+}
