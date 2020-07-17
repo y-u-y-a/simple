@@ -1,7 +1,4 @@
-/*sassをcssに変換するコマンド
-sass scss/reset.scss scss/css/reset.css */
-// コンパイルの自動化コマンド
-// sass --watch assets/scss/application.scss:assets/css/application.css
+@charset "UTF-8";
 @import "reset";
 @import "colors";
 @import "common";

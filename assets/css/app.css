@@ -1,6 +1,4 @@
 @charset "UTF-8";
-/*sassをcssに変換するコマンド
-sass scss/reset.scss scss/css/reset.css */
 @import url(https://fonts.googleapis.com/css?family=Bitter&display=swap);
 @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 html, body, div, span, applet, object, iframe,
@@ -343,4 +341,4 @@ main {
     .comments-wrapper .comment .comment-body .comment-content p {
       width: 100%; }
 
-/*# sourceMappingURL=application.css.map */
+/*# sourceMappingURL=app.css.map */
